@@ -1,0 +1,244 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="BSGameClient.Commands.Exceptions.CommandWasNotProvidedException" Collapsed="true">
+    <Position X="12.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\Exceptions\CommandWasNotProvidedException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BSGameClient.Commands.CreateLobbyCommand" BaseTypeListCollapsed="true">
+    <Position X="26.25" Y="1" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQQAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\CreateLobbyCommand.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BSGameClient.Commands.GetAllLobbiesCommand" BaseTypeListCollapsed="true">
+    <Position X="26" Y="5.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQQAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\GetAllLobbiesCommand.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BSGameClient.Commands.JoinLobbyCommand" BaseTypeListCollapsed="true">
+    <Position X="23.5" Y="1" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAgAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Commands\JoinLobbyCommand.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BSGameClient.Commands.RegisterCommand" BaseTypeListCollapsed="true">
+    <Position X="29" Y="3.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQAgAAAAAAIAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\RegisterCommand.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BattleShipGameClient.Commands.LogInCommand" BaseTypeListCollapsed="true">
+    <Position X="29" Y="1" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQAgAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Commands\LogInCommand.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BattleShipGameClient.Commands.OpenWindowCommand" BaseTypeListCollapsed="true">
+    <Position X="23.5" Y="5.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\OpenWindowCommand.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BSGameClient.Game.FieldFiller.FieldFIllingStrategy" BaseTypeListCollapsed="true">
+    <Position X="5" Y="0.5" Width="2.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="BSGameClient.Game.FieldFiller.FieldFIllingStrategy.RandomPresetIterator">
+        <TypeIdentifier>
+          <NewMemberFileName>Game\FieldFiller\FieldFIllingStrategy.cs</NewMemberFileName>
+        </TypeIdentifier>
+        <Lollipop Position="0.2" Collapsed="true" />
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>Game\FieldFiller\FieldFIllingStrategy.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BSGameClient.Game.GameDrawing.EnemyFieldDrawingStrategy" BaseTypeListCollapsed="true">
+    <Position X="23.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAIAAAAAAAABAAAA=</HashCode>
+      <FileName>Game\GameDrawing\EnemyFieldDrawingStrategy.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BattleShipGameClient.Game.GameDrawingStrategy" BaseTypeListCollapsed="true">
+    <Position X="26.25" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAIAAAAAAIABAAAA=</HashCode>
+      <FileName>Game\GameDrawing\GameDrawingStrategy.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BattleShipGameClient.Game.OnlineGame" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="10.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAEBACAAAURgBAIBAAAACAAAEJABAAgACBAKAlA=</HashCode>
+      <FileName>Game\GameStrategy\OnlineGame.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BattleShipGameClient.Models.FieldData" Collapsed="true">
+    <Position X="10.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAIABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Field\FieldData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BattleShipGameClient.Models.ShipData" Collapsed="true">
+    <Position X="10.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAABAAAAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>Models\Field\ShipData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BattleShipGameClient.Models.LobbyData" Collapsed="true">
+    <Position X="14" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\LobbyData.DTO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BattleShipGameClient.Models.UserDTO" Collapsed="true">
+    <Position X="12.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Models\UserDTO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BattleShipGameClientGame.HitResult" Collapsed="true">
+    <Position X="10.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAoAAAAAACAAEAAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>Models\HitResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BSGameClient.Services.ApiClient" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="8.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAABAABAAgAAAAQEAAAAAA=</HashCode>
+      <FileName>Services\ApiClient.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BSGameClient.Windows.AppWindow">
+    <Position X="31.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAIAAAAAAACAAAAACAAAAAAAEAgAAAgAAAIAAA=</HashCode>
+      <FileName>Windows\AppWindow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BSGameClient.Windows.GameWindow">
+    <Position X="23.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIQAAQEAAAAQAAAAAAAgBAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Windows\GameWindow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BattleShipGameClient.Windows.LoginWindow">
+    <Position X="31.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAEAAAAAAABAAAAAAAAAgAAAEAAAAAAAAAA=</HashCode>
+      <FileName>Windows\LoginWindow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BattleShipGameClient.Windows.RegisterWindow">
+    <Position X="31.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAABAAAAAAAAAAAAAAAIAAAIAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Windows\RegisterWindow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BSGameClient.FieldChangedObserver" BaseTypeListCollapsed="true">
+    <Position X="29.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAACABAIAAJAAAAAAAAAAAAAAAAAAAAIAAgA=</HashCode>
+      <FileName>FieldChangedObserver.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="BattleShipGameClient.Commands.ICommand">
+    <Position X="23.5" Y="3.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\ICommand.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="BattleShipGameClient.Commands.IResultCommand&lt;TRes&gt;">
+    <Position X="26" Y="3.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\ICommand.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="BSGameClient.Game.FieldFiller.IFieldFillingStrategy" Collapsed="true">
+    <Position X="8.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>Game\FieldFiller\IFieldFillingStrategy.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="BattleShipGameClient.Game.IGameDrawingStrategy">
+    <Position X="26.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game\GameDrawing\IGameDrawingStrategy.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="BattleShipGameClient.Game.IGameDataSource" Collapsed="true">
+    <Position X="12.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQQAAAIAAAAACAAAAAAAAAAAAAAIAFA=</HashCode>
+      <FileName>Game\GameStrategy\IGameDataSource.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="BSGameClient.Services.IAccountController" Collapsed="true">
+    <Position X="8.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Services\IAccountController.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="BSGameClient.Services.IGameController" Collapsed="true">
+    <Position X="10.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>Services\IGameController.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="BattleShipGameClient.Models.Direction" Collapsed="true">
+    <Position X="8.75" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAEAAAAAAAAAAAAAAAAEAAAAAAAAAEAAA=</HashCode>
+      <FileName>Models\Field\ShipPlacementDirection.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="BattleShipGameClientGame.HitType" Collapsed="true">
+    <Position X="10.5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACIAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\HitResult.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
